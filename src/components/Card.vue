@@ -1,7 +1,7 @@
 <template lang="">
     <!-- cartas -->
     <section class="container" id="productos">
-      <h1 class=" text-center">Nuestros Productos</h1>
+      <h1 class="text-center">Nuestros Productos</h1>
       <div class="row">
         <!-- primera -->
         <div class="col-sm-4 col-12 px-5 mb-4">

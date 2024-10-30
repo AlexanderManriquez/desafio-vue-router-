@@ -10,13 +10,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
-              <a class="nav-link text-light" href="#">Inicio <span class="sr-only">(current)</span></a>
+              <RouterLink to="/productos" class="nav-link text-light">Inicio <span class="sr-only">(current)</span></RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Productos</a>
+              <RouterLink to="/productos" class="nav-link text-light">Productos</RouterLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contacto</a>
+              <RouterLink to="/contacto" class="nav-link text-light">Contacto</RouterLink>
             </li>
           </ul>
         </div>
@@ -24,6 +24,7 @@
     </nav>
   </template>
   <script>
+  
   export default {
     
   }
