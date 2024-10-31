@@ -7,21 +7,21 @@ export const productos =  [
     descripcion: 'Un desayuno rico y nutritivo para comenzar bien el día.',
     precio: '$4000',
     cantidad: 'Para 2 personas',
-    imagen: '../src/assets/img/desayunos.jpg'
+    imagen: 'https://comedera.com/wp-content/uploads/sites/9/2022/12/Desayono-americano-shutterstock_2120331371.jpg'
   },
   {
     nombre: 'Dulces',
     descripcion: 'Variedad de dulces para disfrutar con quien tu quieras.',
     precio: '$3500',
     cantidad: 'Para 2 personas',
-    imagen: '../src/assets/img/dulces.jpg'
+    imagen: 'https://media-front.elmostrador.cl/2022/06/foto-scaled-1-700x467.jpg'
   },
   {
     nombre: 'Colaciones',
     descripcion: 'Una colación para esos momentos en que el hambre no te abandona.',
     precio: '$2500',
     cantidad: 'Para 1 persona',
-    imagen: '../src/assets/img/colaciones.jpg'
+    imagen: 'https://www.manquecura.cl/wp-content/uploads/sites/14/2017/12/MINUTA-COLACIONES.jpg'
   }
 ]
 
