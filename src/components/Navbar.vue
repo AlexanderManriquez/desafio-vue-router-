@@ -1,5 +1,5 @@
 <template lang="">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container px-4">
         <a class="navbar-brand" href="#"><img src="../assets/logo.png" alt="logo de suricata" /></a>
         <button class="navbar-toggler navbar-dark border-light" type="button" data-bs-toggle="collapse"
@@ -10,7 +10,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
-              <RouterLink to="/productos" class="nav-link text-light">Inicio <span class="sr-only">(current)</span></RouterLink>
+              <RouterLink to="/" class="nav-link text-light">Inicio <span class="sr-only">(current)</span></RouterLink>
             </li>
             <li class="nav-item">
               <RouterLink to="/productos" class="nav-link text-light">Productos</RouterLink>

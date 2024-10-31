@@ -1,38 +1,33 @@
-<template lang="">
-    <!-- cartas -->
-    <section class="container" id="productos">
-      <h1 class="text-center">Nuestros Productos</h1>
-      <div class="row">
-        <!-- primera -->
-        <div class="col-sm-4 col-12 px-5 mb-4">
-  
-          <div class="card">
-            <img src="../assets/img/colaciones.jpg" class="card-img-top" alt="colaciones" />
-            <div class="card-body">
-              <h5 class="card-title fw-bold">Colaciones</h5>
-              <p class="card-text">
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
-              </p>
-            </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Dapibus ac facilisis in</li>
-              <li class="list-group-item">Vestibulum at eros</li>
-            </ul>
-            <div class="card-body">
-              <a href="#" class="card-link">Ver más</a>
-              <a href="#" class="card-link">Comprar</a>
-            </div>
-          </div>
+<template>
+    <div class="col-sm-4 col-12 px-5 mb-4">
+      <div class="card">
+        <img :src="imagen" class="card-img-top" alt="imagen del producto" />
+        <div class="card-body">
+          <h5 class="card-title fw-bold">{{ nombre }}</h5>
+          <p class="card-text">{{ descripcion }}</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">{{ precio }}</li>
+          <li class="list-group-item">{{ cantidad }}</li>
+        </ul>
+        <div class="card-body">
+          <a href="#" class="card-link">Ver más</a>
+          <a href="#" class="card-link">Comprar</a>
         </div>
       </div>
-    </section>
+    </div>
   </template>
+  
   <script>
   export default {
-    
+    name: "Card",
+    props: {
+      nombre: String,
+      descripcion: String,
+      precio: String,
+      cantidad: String,
+      imagen: String
+    }
   }
   </script>
-  <style lang="">
-    
-  </style>
+  
